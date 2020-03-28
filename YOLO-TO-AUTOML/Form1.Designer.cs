@@ -48,7 +48,7 @@
             this.gsPath.Name = "gsPath";
             this.gsPath.Size = new System.Drawing.Size(430, 21);
             this.gsPath.TabIndex = 0;
-            this.gsPath.Text = "gs://curl_stones";
+            this.gsPath.Text = "gs://curl_stones/dataset";
             // 
             // label1
             // 
@@ -76,7 +76,7 @@
             this.localPath.Name = "localPath";
             this.localPath.Size = new System.Drawing.Size(430, 21);
             this.localPath.TabIndex = 3;
-            this.localPath.Text = "C:\\Users\\Park\\Downloads\\windows_v1.8.0\\data_headonly2";
+            this.localPath.Text = "C:\\Users\\Park\\Downloads\\windows_v1.8.0\\txt";
             // 
             // label3
             // 

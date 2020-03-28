@@ -23,9 +23,16 @@ namespace YOLO_TO_AUTOML
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Boolean isTrainSet = false;
             String[] yoloTxts = Directory.GetFiles(localPath.Text, "*.txt");
             String outputLines = "";
             labelMaps = labelMap.Text.Replace("\r","").Split('\n');
+
+            if (MessageBox.Show(null, "Is it TRAIN set?\r\nYes for TRAIN, No for UNASSIGNED(Google will set it automatically)", "TRAIN?", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                isTrainSet = true;
+            else
+                isTrainSet = false;
+
             foreach (String yoloTxt in yoloTxts)
             {
                 FileInfo yoloTxtFile = new FileInfo(yoloTxt);
@@ -39,7 +46,7 @@ namespace YOLO_TO_AUTOML
                 {
                     foreach (String yoloAnnoLine in yoloAnno)
                     {
-                        outputLines += "TRAIN," + gsPath.Text + "/" + yoloTxtFile.Name.Replace(".txt", "") + gsPathAppend.Text + ".jpg," + Convert(yoloAnnoLine) + "\n";
+                        outputLines += isTrainSet ? "TRAIN,":"UNASSIGNED," + gsPath.Text + "/" + yoloTxtFile.Name.Replace(".txt", "") + gsPathAppend.Text + ".jpg," + Convert(yoloAnnoLine) + "\n";
                     }
                 }
             }
