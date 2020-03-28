@@ -1,0 +1,15 @@
+C:\Users\Park\source\repos\YOLO-TO-AUTOML\YOLO-TO-AUTOML\bin\Debug\YOLO-TO-AUTOML.exe.config
+C:\Users\Park\source\repos\YOLO-TO-AUTOML\YOLO-TO-AUTOML\bin\Debug\YOLO-TO-AUTOML.exe
+C:\Users\Park\source\repos\YOLO-TO-AUTOML\YOLO-TO-AUTOML\bin\Debug\YOLO-TO-AUTOML.pdb
+C:\Users\Park\source\repos\YOLO-TO-AUTOML\YOLO-TO-AUTOML\obj\Debug\YOLO-TO-AUTOML.csprojAssemblyReference.cache
+C:\Users\Park\source\repos\YOLO-TO-AUTOML\YOLO-TO-AUTOML\obj\Debug\YOLO_TO_AUTOML.Form1.resources
+C:\Users\Park\source\repos\YOLO-TO-AUTOML\YOLO-TO-AUTOML\obj\Debug\YOLO_TO_AUTOML.Properties.Resources.resources
+C:\Users\Park\source\repos\YOLO-TO-AUTOML\YOLO-TO-AUTOML\obj\Debug\YOLO-TO-AUTOML.csproj.GenerateResource.cache
+C:\Users\Park\source\repos\YOLO-TO-AUTOML\YOLO-TO-AUTOML\obj\Debug\YOLO-TO-AUTOML.csproj.CoreCompileInputs.cache
+C:\Users\Park\source\repos\YOLO-TO-AUTOML\YOLO-TO-AUTOML\obj\Debug\YOLO-TO-AUTOML.exe
+C:\Users\Park\source\repos\YOLO-TO-AUTOML\YOLO-TO-AUTOML\obj\Debug\YOLO-TO-AUTOML.pdb
+C:\Users\Park\source\repos\YOLO-TO-AUTOML\YOLO-TO-AUTOML\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\Park\source\repos\YOLO-TO-AUTOML\YOLO-TO-AUTOML\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\Park\source\repos\YOLO-TO-AUTOML\YOLO-TO-AUTOML\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\Park\source\repos\YOLO-TO-AUTOML\YOLO-TO-AUTOML\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\Park\source\repos\YOLO-TO-AUTOML\YOLO-TO-AUTOML\obj\Debug\YOLO-TO-AUTOML.csproj.CopyComplete
