@@ -30,9 +30,21 @@ namespace YOLO_TO_AUTOML
             {
                 FileInfo yoloTxtFile = new FileInfo(yoloTxt);
                 String[] yoloAnno = File.ReadAllLines(yoloTxt);
-                outputLines += "TRAIN," +gsPath.Text + "/" + yoloTxtFile.Name.Replace(".txt","") + gsPathAppend.Text + ".jpg," + ((yoloAnno.Length>0)?Convert(yoloAnno[0]):"") + "\n";
+                if(yoloAnno.Length == 0) 
+                {
+                    MessageBox.Show("Check for your data again. there is null txt file : " + yoloTxt);
+                    return;
+                }
+                else 
+                {
+                    foreach (String yoloAnnoLine in yoloAnno)
+                    {
+                        outputLines += "TRAIN," + gsPath.Text + "/" + yoloTxtFile.Name.Replace(".txt", "") + gsPathAppend.Text + ".jpg," + Convert(yoloAnnoLine) + "\n";
+                    }
+                }
             }
             WriteCsv(outputLines);
+            MessageBox.Show("Done");
         }
 
         private String Convert(String line)
