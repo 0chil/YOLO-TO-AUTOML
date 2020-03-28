@@ -3,6 +3,7 @@
  - In short, txt Annotations -> csv Table
 # Instructions Video
  [![Instructions Video](http://img.youtube.com/vi/kJFPEXG1ZqE/0.jpg)](https://youtu.be/kJFPEXG1ZqE)
+ (CLICK TO SEE IT ON YOUTUBE)
 # System Requirements
  - Windows >= Vista
  
