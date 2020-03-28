@@ -58,7 +58,7 @@ namespace YOLO_TO_AUTOML
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            Process.Start("explorer.exe", "https://github.com/goraegori/yolo-to-automl/README.md");
+            Process.Start("explorer.exe", "https://github.com/goraegori/YOLO-TO-AUTOML/blob/master/README.md");
         }
 
         private void label2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
