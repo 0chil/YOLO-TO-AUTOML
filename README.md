@@ -33,4 +33,4 @@
 # Screenshots
 ![Screenshot#1](./ex.png)
 # Download Release
- [here](https://github.com/goraegori/YOLO-TO-AUTOML/releases/download/1.0/Release.zip)
+ [here](https://github.com/0chil/YOLO-TO-AUTOML/releases/download/1.0/Release.zip)
